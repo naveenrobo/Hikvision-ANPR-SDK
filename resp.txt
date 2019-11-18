@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plates version="2.0" xmlns="http://www.std-cgi.com/ver20/XMLSchema">
+    <Plate>
+    <captureTime>20340109T094130+0400</captureTime>
+    <plateNumber>A 39837</plateNumber>
+    <picName>203401090941300600</picName>
+    <country>NON</country>
+    <laneNo>1</laneNo>
+    <direction>reverse</direction>
+    <matchingResult>otherlist</matchingResult>
+    </Plate>
+</Plates>
+
+
+{'Plates': {'@version': '2.0', '@xmlns': 'http://www.std-cgi.com/ver20/XMLSchema', 'Plate': {'captureTime': '20340109T094130+0400', 'plateNumber': 'A 39837', 'picName': '203401090941300600', 'country': 'NON', 'laneNo': '1', 'direction': 'reverse', 'matchingResult': 'otherlist'}}}
+
+
+http://192.168.1.20:80/doc/ui/images/plate/203401090941300600.jpg
+
+
+Request 
+
+URL: http://192.168.1.20/ISAPI/Traffic/channels/1/vehicleDetect/plates
+BODY : <AfterTime><picTime>203401090941300600</picTime></AfterTime>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Plates version="2.0" xmlns="http://www.std-cgi.com/ver20/XMLSchema">
+</Plates>
